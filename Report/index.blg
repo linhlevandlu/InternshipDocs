@@ -1,0 +1,71 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: index.aux
+A level-1 auxiliary file: includes/cover.aux
+A level-1 auxiliary file: includes/acknowledgement.aux
+A level-1 auxiliary file: includes/abstract.aux
+A level-1 auxiliary file: includes/intro.aux
+A level-1 auxiliary file: includes/introduction.aux
+A level-1 auxiliary file: includes/classification_method.aux
+A level-1 auxiliary file: includes/conception.aux
+A level-1 auxiliary file: includes/implementation.aux
+A level-1 auxiliary file: includes/conclusion.aux
+The style file: plain.bst
+A level-1 auxiliary file: includes/annex.aux
+Database file #1: includes/references.bib
+Too many commas in name 1 of "Gloria Bueno García, Oscar Deniz Suarez, José Luis Espinosa Aranda, Jesus Salido Tercero, Ismael Serrano Gracia, Noelia Vállez Enano" for entry oscarbook
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Gloria Bueno García, Oscar Deniz Suarez, José Luis Espinosa Aranda, Jesus Salido Tercero, Ismael Serrano Gracia, Noelia Vállez Enano" for entry oscarbook
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Gloria Bueno García, Oscar Deniz Suarez, José Luis Espinosa Aranda, Jesus Salido Tercero, Ismael Serrano Gracia, Noelia Vállez Enano" for entry oscarbook
+while executing---line 1049 of file plain.bst
+Warning--there's a number but no volume in canny1986computational
+Too many commas in name 1 of "Gloria Bueno García, Oscar Deniz Suarez, José Luis Espinosa Aranda, Jesus Salido Tercero, Ismael Serrano Gracia, Noelia Vállez Enano" for entry oscarbook
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "Gloria Bueno García, Oscar Deniz Suarez, José Luis Espinosa Aranda, Jesus Salido Tercero, Ismael Serrano Gracia, Noelia Vállez Enano" for entry oscarbook
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "Gloria Bueno García, Oscar Deniz Suarez, José Luis Espinosa Aranda, Jesus Salido Tercero, Ismael Serrano Gracia, Noelia Vállez Enano" for entry oscarbook
+while executing---line 1090 of file plain.bst
+Warning--empty institution in hough1962method
+You've used 12 entries,
+            2118 wiz_defined-function locations,
+            586 strings with 6086 characters,
+and the built_in function-call counts, 3932 in all, are:
+= -- 401
+> -- 145
+< -- 4
++ -- 60
+- -- 46
+* -- 272
+:= -- 646
+add.period$ -- 37
+call.type$ -- 12
+change.case$ -- 57
+chr.to.int$ -- 0
+cite$ -- 14
+duplicate$ -- 155
+empty$ -- 327
+format.name$ -- 46
+if$ -- 824
+int.to.chr$ -- 0
+int.to.str$ -- 12
+missing$ -- 13
+newline$ -- 63
+num.names$ -- 24
+pop$ -- 57
+preamble$ -- 1
+purify$ -- 46
+quote$ -- 0
+skip$ -- 106
+stack$ -- 0
+substring$ -- 289
+swap$ -- 33
+text.length$ -- 4
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 44
+warning$ -- 2
+while$ -- 44
+width$ -- 14
+write$ -- 134
+(There were 6 error messages)

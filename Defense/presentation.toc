@@ -1,0 +1,10 @@
+\beamer@endinputifotherversion {3.24pt}
+\select@language {english}
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{LaBRI laboratory}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{The internship}{4}{0}{1}
+\beamer@sectionintoc {2}{Method}{5}{0}{2}
+\beamer@subsectionintoc {2}{1}{Cross-Correlation}{5}{0}{2}
+\beamer@subsectionintoc {2}{2}{Edge extraction}{6}{0}{2}
+\beamer@sectionintoc {3}{Result}{16}{0}{3}
+\beamer@sectionintoc {4}{Conclusion and future works}{20}{0}{4}

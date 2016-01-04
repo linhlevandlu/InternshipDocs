@@ -1,0 +1,48 @@
+\documentclass[11pt, a4paper]{report}
+\usepackage{fullpage}
+\usepackage{pdfpages}
+\usepackage[linesnumbered,commentsnumbered,ruled, vlined, boxruled]{algorithm2e}
+\usepackage{graphicx,algorithmic}
+\usepackage{amsmath,subfig}
+\usepackage{multicol}
+\usepackage{setspace}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\renewcommand{\baselinestretch}{1.5}
+\newcommand{\annexname}{Annex}
+\makeatletter
+\newcommand\annex{\par
+  \setcounter{chapter}{0}%
+  \setcounter{section}{0}%
+  \gdef\@chapapp{\annexname}%
+  \gdef\thechapter{\@Roman\c@chapter}}
+\makeatother
+\begin{document}
+\include{includes/cover}
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\include{includes/acknowledgement}
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\include{includes/abstract}
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\tableofcontents
+\listoffigures
+\include{includes/intro}
+\include{includes/introduction}
+%\include{includes/theory}
+%\include{includes/preprocessing}
+\include{includes/classification_method}
+\include{includes/conception}
+\include{includes/implementation}
+%\include{includes/result}
+\include{includes/conclusion}
+\bibliographystyle{plain}
+\bibliography{includes/references}
+\addcontentsline{toc}{chapter}{Bibliography}
+\annex
+\include{includes/annex}
+\end{document}
