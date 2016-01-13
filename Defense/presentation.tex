@@ -225,31 +225,26 @@
 	\end{center}
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\iffalse
 \section{Result}
 \begin{frame}{Result}
-	Dataset includes 2 set of image ().\\
-	Each set contains 291 biological images.
-	\begin{enumerate}
-		\item Intel(R) Core(TM) 2 Duo CPU T8100 2.1GHz, 2 GB of RAM
-			\begin{center}
-				\begin{tabular}{|c|c|c|}
+	\begin{itemize}
+	\item Dataset includes 2 set of image (left mandible and right mandible).
+	\item Machine 1: Intel(R) Core(TM) 2 Duo CPU T8100 2.1GHz, 2 GB of RAM
+	\item Machine 2: Intel(R) Core(TM) i7-4790 CPU 3.6GHz, 16 GB of RAM.
+	\end{itemize}	
+	\begin{center}
+				\begin{tabular}{|p{3cm}|c|c|c|}
 					\hline
-					No Of images & Segmentation(second) & Estimation(second) \\ \hline
-					1 & 0.844 & 31.4245   \\ \hline
-					290 & 571.576 & 13000.9131   \\ \hline
+					Machine & No Of images & Segmentation(second) & Estimation(second) \\ \hline
+					Machine 1 & 1 & 0.844 & 31.4245   \\ \hline
+					Machine 1 & 290 & 571.576 & 13000.9131   \\ \hline
+					Machine 2 & 1 & 0.27782 & 10.4392 \\ \hline
+					Machine 2 & 286 & 171.589 & 4665.79 \\ \hline
 				\end{tabular}
 			\end{center}
-		\item Intel(R) Core(TM) i7-4790 CPU 3.6GHz, 16 GB of RAM.
-			\begin{center}
-			\begin{tabular}{|c|c|c|}
-				\hline
-				No Of images & Segmentation(second) & Estimation(second) \\ \hline
-				1 & 0.27782 & 10.4392   \\ \hline
-				286 & 171.589 & 4665.79   \\ \hline
-			\end{tabular}
-			\end{center}
-	\end{enumerate}
 \end{frame}
+\fi
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}{Result}
 	\begin{itemize}
