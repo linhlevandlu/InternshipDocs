@@ -58,16 +58,13 @@
 	\begin{itemize}
 		\item A collaborative project between LaBRI and INRA Rennes
 		\item Objectives: tracking, collecting and classifying the insects based on morphometry.
-		\item Programming of automatic identification of landmarks in  biological images:
-			\begin{itemize}
-				\item Cross-correlation
-				\item Implementation based on article \textit{``\color{red}{Automatic identification of landmarks in digital images}" $^{\footnote{Palaniswamy, Sasirekha, Neil A. Thacker, and Christian Peter Klingenberg. \textbf{``Automatic identification of landmarks in digital images."} IET Computer Vision 4.4 (2010): 247-260.}}$ }
-			\end{itemize} 		  
+		\item Programming of automatic identification of landmarks in  biological images: Implementation based on article \textit{``\color{red}{Automatic identification of landmarks in digital images}" $^{\footnote{Palaniswamy, Sasirekha, Neil A. Thacker, and Christian Peter Klingenberg. \textbf{``Automatic identification of landmarks in digital images."} IET Computer Vision 4.4 (2010): 247-260.}}$ } 		  
 	\end{itemize}
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Method}
-\subsection{Cross-Correlation}                                                              
+\subsection{Palaniswamy's method}     
+\iffalse                                                         
 \begin{frame}{Cross-Correlation method}
 	\begin{itemize}
 		\item Estimate the presentation of a template in an image.
@@ -82,6 +79,15 @@
 				\item \textbf{I}: image, $(x + x', y + y')$ is coordinate on image, where we get the value to compute while template \textit{T} sliding.
 			\end{itemize}
 	\end{itemize}
+\end{frame}
+\fi
+\begin{frame}{Example}
+	\begin{columns}[c]
+		\column{0.5\textwidth}
+		\includegraphics[height=6cm]{images/rshape}
+		\column{0.5\textwidth}	
+		\includegraphics[height=6cm]{images/result}
+	\end{columns}
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \iffalse
@@ -246,7 +252,13 @@
 \end{frame}
 \fi
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}{Result}
+\subsection{Examination}
+\begin{frame}{MAELab}
+	\begin{center}
+		\includegraphics[height=7cm]{images/software}
+	\end{center}
+\end{frame}
+\begin{frame}{Result}		
 	\begin{itemize}
 		\item Dataset: \textit{\textcolor{red}{290}} images of right mandible and \textit{\textcolor{red}{286}} images of left mandible.
 		\item Landmarks are extracted: \textcolor{red}{18 landmarks} for each \textit{right mandible} and \textcolor{red}{16 landmarks} for each \textit{left mandible}.
